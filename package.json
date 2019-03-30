@@ -1,23 +1,24 @@
 {
-  "name": "varta_engion_gsi_obis",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/energychain/varta_engion_gsi_obis.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/energychain/varta_engion_gsi_obis/issues"
-  },
-  "homepage": "https://github.com/energychain/varta_engion_gsi_obis#readme",
-  "dependencies": {
-    "dotenv": "^7.0.0",
-    "request": "^2.88.0"
-  }
+	"name": "varta_engion_gsi_obis",
+	"version": "1.0.0",
+	"homepage": "https://github.com/energychain/varta_engion_gsi_obis#readme",
+	"bugs": {
+		"url": "https://github.com/energychain/varta_engion_gsi_obis/issues"
+	},
+	"license": "ISC",
+	"main": "lib/gsi_varta.js",
+	"bin": {
+		"gsi-varta": "./index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/energychain/varta_engion_gsi_obis.git"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"dotenv": "^7.0.0",
+		"request": "^2.88.0"
+	}
 }
